@@ -12,6 +12,18 @@
 
 </p>
 
+### Contents
+
+[Features](#features) |
+[Installation](#installation) |
+[Install from PyPI](#option-1-install-from-pypi) |
+[Build from Source](#option-2-build-from-source) |
+[Usage](#usage) |
+[Example Usage](#example-usage) |
+[GUI Usage](#gui-usage) |
+[Usage as a Package](#usage-as-a-package) |
+[Development](#development)
+
 </div>
 
 ## Features
