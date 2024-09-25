@@ -118,7 +118,8 @@ You can also use the `pylookup-tool` with a graphical user interface (GUI). Here
 You can also import `pylookup-tool` as a package in your own Python projects. Here's how to use it programmatically:
 
 ```python
-from app.lookup import WhoisLookup
+# Import the WhoisLookup class from the pylookup package
+from pylookup.app.core import WhoisLookup
 
 # Create an instance of the WhoisLookup class
 lookup = WhoisLookup()
