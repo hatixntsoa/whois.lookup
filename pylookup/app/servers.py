@@ -1,0 +1,40 @@
+tld_to_server = {
+    "com": "whois.verisign-grs.com",
+    "net": "whois.verisign-grs.com",
+    "org": "whois.pir.org",
+    "edu": "whois.educause.edu",
+    "gov": "whois.nic.gov",
+    "uk": "whois.nic.uk",
+    "de": "whois.denic.de",
+    "fr": "whois.nic.fr",
+    "ca": "whois.cira.ca",
+    "mg": "whois.nic.mg",
+    "tech": "whois.nic.tech",
+    "io": "whois.nic.io",
+    "co": "whois.nic.co",
+    "us": "whois.nic.us",
+    "info": "whois.afilias.net",
+    "biz": "whois.biz",
+    "me": "whois.nic.me",
+    "tv": "whois.nic.tv",
+    "in": "whois.registry.in",
+    "cn": "whois.cnnic.cn",
+    "jp": "whois.jprs.jp",
+    "au": "whois.ausregistry.com.au",
+    "at": "whois.nic.at",
+    "es": "whois.nic.es",
+    "it": "whois.nic.it",
+    "nl": "whois.domain-registry.nl",
+    "se": "whois.iis.se",
+    "ch": "whois.nic.ch",
+    "pt": "whois.dns.pt",
+    "ru": "whois.tcinet.ru",
+    "hk": "whois.hknic.net.hk",
+    "tw": "whois.twnic.net.tw",
+    "mg": "whois.nic.mg",
+}
+
+def get_whois_server(domain):
+    """Determine the appropriate WHOIS server based on the domain TLD."""
+    tld = domain.split('.')[-1]
+    return tld_to_server.get(tld, "whois.iana.org")
