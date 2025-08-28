@@ -1,7 +1,7 @@
 # Pylookup Tool
 
 <p align="center">
- <img height="150" src="https://raw.githubusercontent.com/hatixntsoa/whois_lookup/master/imgs/pylookup.png"/>
+ <img height="150" src="https://raw.githubusercontent.com/hatixntsoa/whois.lookup/master/imgs/pylookup.png"/>
 </p>
 
 <div align="center">
@@ -55,8 +55,8 @@ For those who prefer to build it themselves:
 1. Clone the repository and navigate to the project directory:
 
    ```bash
-   git clone https://github.com/hatixntsoa/whois_lookup.git
-   cd whois_lookup
+   git clone https://github.com/hatixntsoa/whois.lookup.git
+   cd whois.lookup
    ```
 
 2. Build the package:
